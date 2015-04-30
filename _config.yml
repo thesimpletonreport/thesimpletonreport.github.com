@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               THE SIMPLETON REPORT
+tagline:             THE ONLY NEWS SOURCE THAT MAKES SENSE TO IDIOTS
+url:                 http://thesimpletonreport.github.com
 paginate:            1
 baseurl:             ""
 
@@ -20,11 +20,11 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Anon Pseudo
+  url:               http://thesimpletonreport.github.com
+  email:             thesimpletonreport@gmail.com
 
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/thesimpletonreport/thesimpletonreport.github.com
