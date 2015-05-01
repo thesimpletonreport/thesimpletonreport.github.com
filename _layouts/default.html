@@ -14,7 +14,8 @@
           <br>
           <hr class="redline">
         </h3>
-        <small class="left"><span>WRITTEN BY <a href="mailto:{{ site.author.email }}" style="text-transform: uppercase">{{ site.author.name }}</a></span></small><small class="right"><span><time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%B %-d, %Y' }}</time></span></small>
+        <small class="left">WRITTEN BY <a href="mailto:{{ site.author.email }}" style="text-transform: uppercase">{{ site.author.name }}</a></small>
+        <small class="right"><time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%B %-d, %Y' }}</time></small>
       </header>
 
       <main>
