@@ -12,7 +12,7 @@
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-  font-size: 72pt;
+  font-size: 16rem;
 
   a {
     color: #505050;
@@ -24,4 +24,10 @@
     color: #c0c0c0;
     letter-spacing: 0;
   }
+}
+
+.redline {
+  border-style: inset;
+  border-width: 3px;
+  color: #F22A2A;
 }
