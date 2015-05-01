@@ -25,13 +25,6 @@
     letter-spacing: 0;
     line-height: 0px;
   }
-  
-  .left {
-    text-align: left;
-  }
-  .right {
-    text-align: right;
-  }
 }
 
 .redline {
@@ -44,4 +37,11 @@
   border-color: #F22A2A;
   margin-top: 0px; 
   margin-bottom: 0px;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
 }
