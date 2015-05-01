@@ -12,7 +12,7 @@
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   a {
     color: #505050;
@@ -27,8 +27,8 @@
 }
 
 .redline {
-  border-width: 3px;
-  border-style: solid;
+  border-style: none hidden;
+  height: 3px;
   color: #F22A2A;
   background-color: #F22A2A;
   border-color: #F22A2A;
