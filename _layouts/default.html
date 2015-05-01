@@ -13,7 +13,7 @@
           <a href="{{ site.baseurl }}/" title="Home"><b>{{ site.title }}</b></a>
           <br>
           <hr class="redline">
-          <small>WRITTEN BY <a href="mailto:{{ site.author.email }}" style="text-transform: uppercase">{{ site.author.name }}</a></small>
+          <small><span>WRITTEN BY <a href="mailto:{{ site.author.email }}" style="text-transform: uppercase">{{ site.author.name }}</a></span><span class="right">{{ site.time | date: '%M %D, %Y'</span></small>
         </h3>
       </header>
 
@@ -23,7 +23,7 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Anon Pseudo. All rights reserved.
         </small>
       </footer>
     </div>
